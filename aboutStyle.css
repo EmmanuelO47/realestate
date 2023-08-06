@@ -1,11 +1,11 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: auto;
-    
 }
 #footer{
     background-color: #171b2a;
     padding-top: 11rem;
+    margin-bottom: -30px;
 }
 #cta{
     background-color: #ff5a3c;
@@ -31,7 +31,7 @@ body{
     padding: 20px 40px;
     border: none;
     border-radius: 0;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .cta-right > button:hover{
     box-shadow: inset 14.5em 0 0 0 #000000;
@@ -72,7 +72,7 @@ ul li{
 ul li > a{
     text-decoration: none;
     color: #ffffff;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 ul li > a:hover{
     padding: 10px 0 10px 30px;
@@ -85,6 +85,7 @@ ul li > a:hover{
     background-color: #ffffff;
     padding: 25px 20px;
     border: none;
+    border-radius: none;
 }
 .input > input::placeholder{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -96,8 +97,27 @@ ul li > a:hover{
     padding: 5px 15px;
     border-radius: none;
 }
+.accept > img{
+    width: 100%;
+    height: 35x;
+}
 
-@media (max-width:720px) {
+@media (max-width:1070px) {
+    .fluid-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-2, .col-6{
+        width: 30%;
+        padding: 0 50px;
+    }
+    .col-2 > div > h3,
+    .col-6 > div > h3{
+        width: fit-content;
+    }
+}
+
+@media (max-width:700px) {
     .fluid-container{
         display: flex;
         flex-direction: column;
@@ -110,3 +130,48 @@ ul li > a:hover{
         font-size: 1.5rem;
     }
 }
+
+/* header style */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0 40px 0;
+   
+  }
+  .topnav a {
+    float:none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+  .topnav > .btn_list {
+    padding: 18px 30px;  
+    color: #fff;
+    text-align: center;
+    border-radius: none;
+    font-size: 20px;
+    margin: -30px -240px 0 50px;
+    background-color: #FF5A3C;
+    transition: 0.3s;
+    border: none;
+  }
+  .topnav > .btn_list:hover {
+    color: #000;
+    background-color: #fff;
+    
+  }
+  .topnav > .logo-2 {
+   float:left;
+   margin-top: -20px;
+   
+  }
