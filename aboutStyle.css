@@ -31,7 +31,7 @@ body{
     padding: 20px 40px;
     border: none;
     border-radius: 0;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 .cta-right > button:hover{
     box-shadow: inset 14.5em 0 0 0 #000000;
@@ -111,6 +111,7 @@ body{
     height: 35x;
 }
 
+/* Mobile screens css */
 @media (max-width:1070px) {
     .fluid-container{
         display: flex;
@@ -125,6 +126,9 @@ body{
     .col-6 > div > h3{
         width: fit-content;
     }
+    .main-nav > .nav-items{
+        display: none;
+      }
 }
 
 @media (max-width:700px) {
@@ -143,6 +147,14 @@ body{
         width: 50%;
         padding: 0 50px;
     }
+    .top-nav{
+        display: none;
+      }
+}
+@media (max-width:380px) {
+    .opt{
+        display: none;
+      }
 }
 
 /* header style */
@@ -203,29 +215,46 @@ body{
   }
 
   .top-nav{
-    background-color: #333;
+    background-color: #0b2c3d;
+  }
+  .top-nav > div{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 89%;
+    margin: auto;
   }
-  .top-nav > .left{
+  .top-nav > div > .left{
     color: #ffffff;
     font-size: 14px;
     margin-top: 7px;
   }
-  .top-nav > .left > span:hover{
+  .top-nav > div > .left > span:hover{
     color: #FF5A3C;
     cursor: pointer;
   }
-  .top-nav > .left > span{
+  .top-nav > div > .left > span{
     margin: 0 5px;
     transition: 0.3s;
   }
-  .left > span > svg{
+  div > .left > span > svg{
     color: #FF5A3C;
     vertical-align: top;
   }
-  .right > .btn_list {
+  div > .right{
+    display: flex;
+    flex-direction: row;
+  }
+  .right > div{
+    margin: 7px 20px 0 0;
+  }
+  .right > div > a{
+    color: #ffffff;
+    padding: 2px;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  div > .right > .btn_list {
     padding: 10px 30px;  
     color: #fff;
     text-align: center;
