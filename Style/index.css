@@ -199,6 +199,89 @@
     outline: none;
     color:#ff5a3c;
  }
+ #Fourth-section{
+    padding: 90px 0 0px 0;
+ }
+ .property_section{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.property_subsection{
+  background: white;
+  box-shadow: 3px 3px 3px 3px #b4b2b2;
+  padding: 20px 45px 20px 45px;
+  
+}
+.ed-rent{
+    background-image: url(../imgs/listing1.jpg);
+    height: 300px;
+    width: 380px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: -20px -57px -20px -42px;
+}
+.ed-rent > b{
+    background-color: #77c720;
+    color: #fff;
+    font-size:small;
+    padding: 7px 13px 7px 13px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.ed-sell{
+    background-image: url(../imgs/listing1.jpg);
+    height: 300px;
+    width: 380px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: -20px -57px -20px -42px;
+}
+.ed-sell > b{
+    background-color:#ff5a3c;
+    color: #fff;
+    font-size:small;
+    padding: 7px 13px 7px 13px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.Chicago{
+    color: #fff;
+    font-size:medium;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    margin-left: -80px;
+}
+.Chicago > a{
+    text-decoration: none;
+    outline: none;
+}
+.Chicago:hover{
+    color: #ff5a3c;
+}
+.pro-price{
+    text-align: left;
+}
+.pro-price > h2{
+    color: #ff5a3c;
+    padding-top: 20px;
+}
+.pro-price > a{
+    text-decoration: none;
+    outline: none;
+    color:#000000;
+    font-size: x-large;
+    font-weight: 900;
+}
+.pro-price > a:hover{
+    color: #ff5a3c;
+}
   
   
   
