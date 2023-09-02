@@ -156,7 +156,7 @@
       justify-content:space-around;
       text-align: left;
       padding: 50px 50px 90px 50px;
-      background-color: #ACD2D8;
+      background-color: #dceff1;
   }
   .third_subset{
     text-align: center;
@@ -234,7 +234,7 @@
     margin-right: 20px;
 }
 .ed-sell{
-    background-image: url(../imgs/listing1.jpg);
+    background-image: url(../imgs/listing2.jpg);
     height: 300px;
     width: 380px;
     background-size: cover;
@@ -244,6 +244,24 @@
 }
 .ed-sell > b{
     background-color:#ff5a3c;
+    color: #fff;
+    font-size:small;
+    padding: 7px 13px 7px 13px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.ed-rent2{
+    background-image: url(../imgs/listing3.jpg);
+    height: 300px;
+    width: 380px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: -20px -57px -20px -42px;
+}
+.ed-rent2 > b{
+    background-color: #77c720;
     color: #fff;
     font-size:small;
     padding: 7px 13px 7px 13px;
@@ -281,6 +299,19 @@
 }
 .pro-price > a:hover{
     color: #ff5a3c;
+}
+.youtube{
+    padding: 50px 0 100px 0; 
+}
+.sub-youtube{
+    background-image: url(../imgs/youtube-img.jpg);
+}
+.Logo{
+    background-color: #dceff1;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding: 100px 20px;
 }
   
   
