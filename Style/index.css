@@ -314,7 +314,8 @@
     padding: 100px 20px;
 }
 .News-feeds1{
-    padding: 60px 80px;
+    padding: 60px 45px;
+   
 }
 .news-icon1{
     display: flex;
@@ -334,6 +335,12 @@
     font-size: 25px;
     font-family: 'Nunito Sans', sans-serif;
     color:#312e2e ;
+}
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+    padding: 30px 0 120px 0;
 }
 
   
