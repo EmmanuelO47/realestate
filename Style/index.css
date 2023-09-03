@@ -313,6 +313,29 @@
     vertical-align: middle;
     padding: 100px 20px;
 }
+.News-feeds1{
+    padding: 60px 80px;
+}
+.news-icon1{
+    display: flex;
+    padding: 30px 15px 0 15px;
+}
+.news-icon1 > span{
+    padding-left: 10px;
+}
+.news-icon1 > span >a{
+    text-decoration: none;
+    color: #4e4c4c;
+}
+.news-icon1 > span >a:hover{
+    color: #FF5A3C;
+}
+.news-text{
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    color:#312e2e ;
+}
+
   
   
   
