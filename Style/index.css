@@ -1,57 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
-</head>
-<body> 
-  <div class="topnav">
-  <a href="./index.html">Home</a>
-  <a href="./about.html">About</a>
-  <a href="./property.html">Property</a>
-  <a href="./news.html">News</a>
-  <a href="./pages.html">Pages</a>
-  <a href="./contact.html">Contact</a>
-  <button class="btn_list">Add Listing</button>
-  <img class="logo-2" src="./imgs/logo-2.png" alt="logo-2">
-</div>
-
-    <div class="layer-1">
-        <img src="logo.png" alt="Company logo">
-        <h1>Real Estate</h1>
-        <p>50 Lagos Island</p>
-        <p>DevOps Avenue</p>
-        <p>(234) 12345678</p>
-        <p>info@realestate.co</p>
-      </div>
-      
-      <div class="layer-2">
-        <h2>Get a Quote</h2>
-        <form action="contact.php" method="post">
-          <input type="text" name="name" placeholder="Your name">
-          <input type="email" name="email" placeholder="Your email address">
-          <input type="tel" name="phone" placeholder="Your phone number">
-          <textarea name="message" placeholder="Your message"></textarea>
-          <input type="submit" value="Get a Quote">
-        </form>
-      </div>
-      
-      <div class="layer-3">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.3217212589856!2d-122.41915098476898!3d37.77493328010715!4m5!3m4!1s0x808fa85229158621:0x5241369e81d523b!8m2!3d37.774899!4d-122.420124" width="600" height="450" style="border:0;"></iframe>
-      </div>
-      
-      </body>
-      </html>
-</body>
-
-<style>
-  .topnav {
+.topnav {
     overflow: hidden;
     text-align: center;
     padding: 50px 0 40px 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-    background-color: #000;
   }
   .topnav a {
     float:none;
@@ -90,7 +41,7 @@
   .bg-image{
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-image: url(quarterpics.jpg);
+    background-image: url(/imgs/quarterpics.jpg);
     height: 700px;
     background-size: cover;
     background-position: center center;
@@ -168,7 +119,7 @@
       position: relative;
       color: #ff5a3c;
       font-size: 14px;
-      background-color:burlywood;
+      background-color:#f1cbc3;
   }
   .service_section{
       text-align: center;
@@ -185,9 +136,206 @@
       text-decoration: none;
       outline: none;
       color: inherit;
-      font-size: 18px;
+      font-size: 25px;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
+  .home_section{
+      display: flex;
+      justify-content:space-around;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 90px;
+  }
+  .home_subsection{
+    background: white;
+    box-shadow: 3px 3px 3px 3px #b4b2b2;
+    padding: 50px 60px;
+  }
+  .third_section{
+    display: flex;
+      justify-content:space-around;
+      text-align: left;
+      padding: 50px 50px 90px 50px;
+      background-color: #dceff1;
+  }
+  .third_subset{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .third_subsection{
+    background: white;
+    box-shadow: 3px 3px 3px 3px #b4b2b2;
+    padding: 20px 15px;
+  }
+ .pro-text{
+    font-family: sans-serif;
+    padding-top: 230px;
+    
+ }
+ .property{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-right: 220px;
+    margin-top: -230px;
+    font-family: sans-serif;
+    font-size: 12px;
+    
+ }
+ .pro-text > a{
+    text-decoration: none;
+    outline: none;
+    color: #1a1717;
+ }
+ .pro-text > a:hover{
+    color: #FF5A3C;
+ }
+ .prop-text{
+    font-family: sans-serif;
+    padding-bottom: 20px;
+ }
+ .prop-text > a{
+    text-decoration: none;
+    outline: none;
+    color:#ff5a3c;
+ }
+ #Fourth-section{
+    padding: 90px 0 0px 0;
+ }
+ .property_section{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.property_subsection{
+  background: white;
+  box-shadow: 3px 3px 3px 3px #b4b2b2;
+  padding: 20px 45px 20px 45px;
+  
+}
+.ed-rent{
+    background-image: url(../imgs/listing1.jpg);
+    height: 300px;
+    width: 380px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: -20px -57px -20px -42px;
+}
+.ed-rent > b{
+    background-color: #77c720;
+    color: #fff;
+    font-size:small;
+    padding: 7px 13px 7px 13px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.ed-sell{
+    background-image: url(../imgs/listing2.jpg);
+    height: 300px;
+    width: 380px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: -20px -57px -20px -42px;
+}
+.ed-sell > b{
+    background-color:#ff5a3c;
+    color: #fff;
+    font-size:small;
+    padding: 7px 13px 7px 13px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.ed-rent2{
+    background-image: url(../imgs/listing3.jpg);
+    height: 300px;
+    width: 380px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: -20px -57px -20px -42px;
+}
+.ed-rent2 > b{
+    background-color: #77c720;
+    color: #fff;
+    font-size:small;
+    padding: 7px 13px 7px 13px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.Chicago{
+    color: #fff;
+    font-size:medium;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    margin-left: -80px;
+}
+.Chicago > a{
+    text-decoration: none;
+    outline: none;
+}
+.Chicago:hover{
+    color: #ff5a3c;
+}
+.pro-price{
+    text-align: left;
+}
+.pro-price > h2{
+    color: #ff5a3c;
+    padding-top: 20px;
+}
+.pro-price > a{
+    text-decoration: none;
+    outline: none;
+    color:#000000;
+    font-size: x-large;
+    font-weight: 900;
+}
+.pro-price > a:hover{
+    color: #ff5a3c;
+}
+.youtube{
+    padding: 50px 0 100px 0; 
+}
+.sub-youtube{
+    background-image: url(../imgs/youtube-img.jpg);
+}
+.Logo{
+    background-color: #dceff1;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding: 100px 20px;
+}
+.News-feeds1{
+    padding: 60px 80px;
+}
+.news-icon1{
+    display: flex;
+    padding: 30px 15px 0 15px;
+}
+.news-icon1 > span{
+    padding-left: 10px;
+}
+.news-icon1 > span >a{
+    text-decoration: none;
+    color: #4e4c4c;
+}
+.news-icon1 > span >a:hover{
+    color: #FF5A3C;
+}
+.news-text{
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    color:#312e2e ;
+}
+
   
   
   
@@ -336,4 +484,4 @@
           padding: 0 50px;
       }
   }
-  </style>
+  
