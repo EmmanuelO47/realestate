@@ -6,7 +6,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 
 .news-header-wrapper{
-background-image: url(/imgs/news-header-img.jpg); 
+background-image: url(../imgs/news-header-img.jpg); 
 padding: 5%;
 height: 10%;
 background-position: center; 
