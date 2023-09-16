@@ -1,0 +1,13 @@
+name: Deploy website
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Push to server and deploy
+        run: cd /var/www/html && git pull origin master
