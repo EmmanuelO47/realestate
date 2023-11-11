@@ -1,7 +1,7 @@
-name: Deploy Development
+name: Deploy Main
 on:
   push:
-    branches: [development]
+    branches: [main]
 
 jobs:
   build:
@@ -16,4 +16,4 @@ jobs:
           USERNAME: ${{ secrets.SERVER_USERNAME }}
           PORT: ${{ secrets.PORT }}
           PASSWORD: ${{ secrets.SSH_KEY }}
-          script: cd ${{ secrets.DEV_PATH }} && git pull origin development
+          script: cd ${{ secrets.DEV_PATH }} && git pull origin main
